@@ -1,0 +1,30 @@
+<div class="backdrop is-hidden" data-modal>
+  <div class="modal">
+    <button class="modal-close-button" type="button" data-modal-close>
+      <svg aria-label="Закрити" class="modal-close-button-icon">
+        <use href="./images/sprite.svg#icon-close"></use>
+      </svg>
+    </button>
+    <div class="modal-wrapper">
+      <p class="modal-window__title">Leave your order details</p>
+      <form class="modal-form">
+        <label class="form-label" for="">
+            <span class="form-input-text">Ім'я</span>
+              <span class="input-wrapper">
+                <input
+                  type="text"
+                  class="form-input"
+                  required
+                  pattern="[a-zA-Zа-яА-яіІїЇ]+"
+                  name="user-name"
+                />
+                <!-- <svg aria-label="Персона" class="form-icon">
+                  <use href="./images/sprite.svg#icon-person"></use>
+                </svg> -->
+              </span>
+        </label>
+
+      </form>
+    </div>
+  </div>
+</div>

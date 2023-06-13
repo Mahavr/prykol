@@ -1,0 +1,24 @@
+.button {
+  background-color: var(--main-color);
+  color: var(--light-text-color);
+  font-family: var(--title-font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  width: 212px;
+  height: 64px;
+  border-radius: 36px;
+  border-color: var(--main-color);
+  cursor: pointer;
+  border-style: none;
+  transition: all var(--animation);
+
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+  }
+}
+.button__active {
+  background-color: var(--accent-color);
+}

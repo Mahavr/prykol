@@ -1,0 +1,92 @@
+.section-fifth {
+  background-color: var(--accent-color);
+position: relative;
+  padding-left: 60px;
+}
+.section-fifth-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section-fifth__hiero-left {
+  position: absolute;
+  left: 60;
+}
+.section-fifth__hiero-right {
+  position: absolute;
+  left: 1140;
+}
+.section-fifth__title {
+  font-family: var(--text-font);
+  font-weight: 600;
+  font-size: 90px;
+  line-height: 140%;
+  color: var(--light-text-color);
+  padding-top: 95px;
+  width: 850px;
+  text-align: center;
+}
+.section-fifth__subtitle {
+  font-family: var(--title-font);
+  font-size: 20px;
+  line-height: 200%;
+  letter-spacing: -0.01em;
+  color: var(--light-text-color);
+  opacity: 0.8;
+  margin-top: 30px;
+}
+.email-label {
+  margin-top: 40px;
+  padding-bottom: 95px;
+}
+.email-form-wrapper {
+  display: flex;
+  align-items: center;
+}
+.email-form__item {
+  background: var(--cards-backround);
+  opacity: 0.5;
+  border: 1px solid var(--light-text-color);
+  border-radius: 46px;
+  width: 480px;
+  height: 85px;
+  &::placeholder {
+    color: var(--light-text-color);
+    font-family: var(--title-font);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 200%;
+    padding-left: 25px;
+  }
+}
+
+.email-form-button {
+  background: var(--button-color);
+  color: var(--light-text-color);
+  font-family: var(--title-font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: capitalize;
+  width: 180px;
+  height: 60px;
+  border-radius: 36px;
+  cursor: pointer;
+  border-style: none;
+  transition: all var(--animation);
+  position: absolute;
+  left: 815;
+
+  &:hover,
+  &:focus {
+    background-color: var(--cards-backround);
+    border: 2px solid var(--light-text-color);
+  }
+}
+.email-form-button-active {
+  background-color: var(--cards-backround);
+  border-color: var(--light-text-color);
+}

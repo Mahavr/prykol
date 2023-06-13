@@ -1,14 +1,30 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="uk">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Page title</title>
+
+    <title>prykol</title>
     <link rel="stylesheet" href="./sass/index.scss" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Plus+Jakarta+Sans:wght@400;500;600&family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
     <script type="module" src="./index.js"></script>
   </head>
   <body>
     <!-- ❗️❗️❗️ Add partials like so for every page -->
-    <include src="./partials/example.html"></include>
+    <div>
+      <include src="./partials/header.html"></include>
+      <include src="./partials/first-section.html"></include>
+    </div>
+    <include src="./partials/second-section.html"></include>
+    <include src="./partials/third-section.html"></include>
+    <include src="./partials/forth-section.html"></include>
+    <include src="./partials/fifth-section.html"></include>
+    <include src="./partials/footer.html"></include>
+    <include src="./partials/modal-window-first-section.html"></include>
   </body>
 </html>

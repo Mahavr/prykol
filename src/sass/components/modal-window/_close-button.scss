@@ -1,0 +1,24 @@
+.modal-close-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  padding: 0;
+  top: 8px;
+  right: 8px;
+  width: 30px;
+  height: 30px;
+  background-color: var(--backround-color);
+  cursor: pointer;
+  border: none;
+  &:hover > .modal-close-button-icon,
+  &:focus > .modal-close-button-icon {
+    fill: var(--accent-color);
+  }
+}
+.modal-close-button-icon {
+  width: 30px;
+  height: 30px;
+  transition: fill var(--animation);
+  outline: none;
+}

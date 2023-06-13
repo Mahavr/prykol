@@ -1,0 +1,45 @@
+.modal-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.form-label {
+  margin-bottom: 10px;
+}
+.form-input-text {
+  display: block;
+  margin-bottom: 4px;
+  font-family: var(--title-color);
+
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 200%;
+  letter-spacing: 0.01em;
+  color: var(--main-color);
+
+  &::placeholder {
+    color: var(--cards-backround);
+  }
+}
+.input-wrapper {
+  display: block;
+  position: relative;
+}
+.form-input {
+  height: 40px;
+
+  width: 100%;
+  border: 2px solid var(--main-color);
+  border-radius: 4px;
+  padding-left: 42px;
+  transition: border-color var(--accent-color);
+
+  &:focus {
+    outline: none;
+    border-color: var(--accent-color);
+
+    + .form-icon {
+      fill: var(--accent-color);
+    }
+  }
+}

@@ -1,0 +1,17 @@
+.backdrop {
+  position: fixed;
+  z-index: 100;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--backdrop-color);
+  visibility: visible;
+  opacity: 1;
+  pointer-events: auto;
+  &.is-hidden {
+    // visibility: hidden;
+    // opacity: 0;
+    // pointer-events: none;
+  }
+}

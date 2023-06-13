@@ -1,0 +1,53 @@
+.subsection-light {
+  padding-top: 135px;
+  padding-left: 80px;
+  width: calc(50% - 80px);
+  height: 505px;
+  background-color:var(--light-text-color);
+}
+.subsection-title {
+  display: flex;
+  flex-direction: column;
+  font-family: var(--title-font);
+  font-size: 18px;
+  line-height: 200%;
+  opacity: 0.8;
+  letter-spacing: -0.01em;
+}
+.subsection-subtitle {
+  color: var(--accent-color);
+}
+.subsection-hero-title {
+  margin-top: 15px;
+  font-family: var(--text-font);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 140%;
+  color: var(--main-color);
+  opacity: 1;
+}
+.subsection-name {
+  margin-top: 30px;
+  color: var(--main-color);
+}
+.sushi-list {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  width: 365px;
+}
+.sushi-list-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.chek-mark {
+  width: 24px;
+  height: 24px;
+}
+.sushi-list-menu__item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}

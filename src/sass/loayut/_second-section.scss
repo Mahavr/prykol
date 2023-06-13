@@ -1,0 +1,60 @@
+.section2-container {
+  display: flex;
+ position: relative;
+}
+.section2__left-part {
+  background-color: var(--backround-color);
+  width: 540px;
+  height: 720px;
+}
+.section2__image-sushi {
+  position: absolute;
+  top: 80px;
+  left: 80px;
+}
+.section2__image-sushi2 {
+  top: 460px;
+}
+
+.section2__image-hiero {
+  position: absolute;
+  left: 385px;
+  top: 30px;
+}
+.section2__image-hiero2 {
+  top: 420px;
+}
+.section2__right-part {
+  padding-top: 150px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  left: 640px;
+  padding-right: 100px;
+}
+.section2__about {
+  font-family: var(--title-font);
+  font-size: 18px;
+  line-height: 200%;
+  letter-spacing: -0.01em;
+  color: var(--accent-color);
+  opacity: 0.8;
+}
+.section2__title {
+  font-family: var(--text-font);
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 140%;
+  color: var(--main-color);
+  margin-top: 15px;
+}
+.section2__subtitle {
+  font-family: var(--title-font);
+  font-size: 18px;
+  line-height: 200%;
+  letter-spacing: -0.01em;
+  color: var(--main-color);
+  opacity: 0.8;
+  margin-top: 30px;
+}

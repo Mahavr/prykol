@@ -1,2 +1,31 @@
-@import './common';
-@import './example';
+@import './utils/variables';
+@import './utils/visually-hidden';
+
+@import './base/common';
+
+@import './base/section';
+
+@import './loayut/header';
+@import './loayut/_first-section';
+@import './loayut/_second-section';
+@import './loayut/_third-section';
+@import './loayut/_forth-section';
+@import './loayut/_fifth-section';
+@import './loayut/_footer';
+
+@import './components/navigation';
+@import './components/logo';
+@import './components/_button';
+@import './components/_first-section-button';
+@import './components/_second-section-button';
+@import './components/_food-menu-button';
+@import './components/_food-menu-cards';
+@import './components/_light-subsection';
+@import './components/_subsection-sushi';
+
+@import './components/modal-window/_modal-backdrop';
+@import './components/modal-window/_modal-window';
+@import './components/modal-window/_close-button';
+@import './components/modal-window/_modal-window';
+@import './components/modal-window/_modal-form';
+

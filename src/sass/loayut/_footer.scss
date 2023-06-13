@@ -1,0 +1,35 @@
+.footer {
+  position: relative;
+  background-color: var(--backround-color);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.footer-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer-logo {
+  color: var(--main-color);
+  text-decoration: none;
+  font-family: var(--text-font);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  opacity: 0.9;
+  text-transform: uppercase;
+}
+.footer-logo-span {
+  color: var(--accent-color);
+}
+.footer-social-links__menu {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.footer__social-links-item {
+  width: 42px;
+  height: 42px;
+}

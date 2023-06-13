@@ -1,0 +1,82 @@
+.section3 {
+position: relative;
+  background-color: var(--accent-color);
+}
+.section3__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding-top: 120px;
+  padding-bottom: 120px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+.section3__title {
+  font-family: var(--text-font);
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 140%;
+  text-align: center;
+
+  color: var(--light-text-color);
+}
+.food-menu-button {
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  &:hover,
+  &:focus {
+    border: solid 2px;
+  }
+}
+.food-menu-button-active {
+  border: solid 2px;
+}
+.button-3__arrow {
+  width: 24px;
+  height: 24px;
+}
+.card-menu-button {
+  width: 80px;
+  height: 80px;
+  background: var(--cards-backround);
+  border: 1px solid var(--cards-border);
+  border-radius: 46px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  &:hover,
+  &:focus {
+    width: 90px;
+    height: 90px;
+  }
+}
+.card-menu-button-active {
+  width: 90px;
+  height: 90px;
+}
+.left__button {
+  margin-right: 75px;
+}
+.right__button {
+  margin-left: 75px;
+}
+.card-menu-button__arrow {
+  width: 70px;
+  height: 70px;
+}
+.thirt__hiero {
+  position: absolute;
+}
+.hiero__bot {
+  top: 18px;
+  left: 10px;
+}
+.hiero__top {
+  bottom: 30px;
+  right: 10px;
+}

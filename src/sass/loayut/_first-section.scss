@@ -1,0 +1,117 @@
+.section1 {
+  display: flex;
+  position: relative;
+  // top: -90px;
+  // left: -10px;
+}
+.section-left-part {
+  width: 540px;
+  height: 846px;
+  background-color: var(--accent-color);
+  z-index: 0;
+}
+
+.section1__image-sushi {
+  position: absolute;
+  top: 80px;
+  z-index: 1;
+}
+.section1__image-hiero1 {
+  position: absolute;
+  top: 115px;
+  z-index: 0;
+}
+.section1__image-hiero2 {
+  position: absolute;
+
+  left: 80px;
+  bottom: 70px;
+}
+
+.section-right-part {
+  position: absolute;
+  left: 540px;
+  width: calc(100% - 540px);
+}
+.section__top-part {
+  padding-top: 180px;
+}
+.section1__title {
+  font-family: var(--text-font);
+  font-weight: 600;
+  font-size: 88px;
+  line-height: 123px;
+  color: var(--main-color);
+  padding-left: 100px;
+}
+.section1__subtitle {
+  margin-top: 30px;
+  padding-left: 184px;
+  font-family: var(--title-font);
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: -0.01em;
+  color: var(--main-color);
+  opacity: 0.8;
+}
+.buttons-wrapper {
+  margin-top: 40px;
+  display: flex;
+  gap: 35px;
+  padding-left: 184px;
+}
+.section__bottom-part {
+  margin-top: 90px;
+  height: 160px;
+  background-color: var(--backround-color);
+  display: flex;
+  align-items: center;
+}
+.section__bottom-left-side {
+  display: flex;
+  align-items: center;
+  padding-left: 100px;
+  gap: 28px;
+}
+.section__bottom-left-side::after {
+  content: '';
+  width: 0px;
+  height: 80px;
+  z-index: 100;
+  opacity: 0.1;
+  border: 1px solid #020202;
+  margin-left: 55px;
+}
+.bottom-left-side__num-of-customers {
+  font-family: var(--text-font);
+  font-size: 82px;
+  line-height: 115px;
+  color: #333333;
+}
+.bottom-left-side__customers {
+  font-family: var(--content-font);
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: -0.02em;
+  color: #121211;
+  opacity: 0.5;
+}
+.section__bottom-right-side {
+  display: flex;
+  align-items: center;
+  width: 400px;
+}
+.bottom-right-side__photo {
+  margin-left: 55px;
+}
+.bottom-right-side__text {
+  margin-left: 25px;
+  font-family: var(--title-font);
+
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: -0.01em;
+  color: var(--main-color);
+
+  opacity: 0.8;
+}

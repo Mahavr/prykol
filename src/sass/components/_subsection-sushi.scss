@@ -1,0 +1,20 @@
+.subsection-sushi {
+  background-color: var(--backround-color);
+  width: 50%;
+  height: 640px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.subsection-sushi__hiero__right {
+  position: relative;
+ top: -130px;
+ left: 385px;
+  
+}
+.subsection-sushi__hiero__left{
+ position: relative;
+ top: -130px;
+  left: -375px;
+}

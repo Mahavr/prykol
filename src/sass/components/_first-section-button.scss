@@ -1,0 +1,36 @@
+
+
+.how-to-button {
+
+  font-family: var(--title-font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  background-color: var(--light-text-color);
+  color: var(--main-color);
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  cursor: pointer;
+    transition: all var(--animation);
+  &:hover,&:focus{
+    fill: var(--accent-color);
+    color: var(--accent-color);
+  }
+
+}
+.how-to-button-active{
+   fill: var(--accent-color);
+    color: var(--accent-color);
+}
+.button__play {
+  width: 56px;
+  height: 56px;
+}
+
+
+
+
