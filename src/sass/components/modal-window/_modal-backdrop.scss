@@ -9,9 +9,4 @@
   visibility: visible;
   opacity: 1;
   pointer-events: auto;
-  &.is-hidden {
-    // visibility: hidden;
-    // opacity: 0;
-    // pointer-events: none;
-  }
 }

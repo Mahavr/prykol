@@ -1,29 +1,59 @@
-<div class="backdrop is-hidden" data-modal>
+<div class="backdrop visually-hidden" data-modal>
   <div class="modal">
     <button class="modal-close-button" type="button" data-modal-close>
-      <svg aria-label="Закрити" class="modal-close-button-icon">
-        <use href="./images/sprite.svg#icon-close"></use>
-      </svg>
+      &#128473
     </button>
     <div class="modal-wrapper">
       <p class="modal-window__title">Leave your order details</p>
       <form class="modal-form">
         <label class="form-label" for="">
-            <span class="form-input-text">Ім'я</span>
-              <span class="input-wrapper">
-                <input
-                  type="text"
-                  class="form-input"
-                  required
-                  pattern="[a-zA-Zа-яА-яіІїЇ]+"
-                  name="user-name"
-                />
-                <!-- <svg aria-label="Персона" class="form-icon">
-                  <use href="./images/sprite.svg#icon-person"></use>
-                </svg> -->
-              </span>
+          <span class="form-input-text">NAME</span>
+          <span class="input-wrapper">
+            <input
+              type="text"
+              class="form-input name"
+              required
+              pattern="[a-zA-Zа-яА-яіІїЇ]+"
+              name="user-name"
+            />
+          </span>
         </label>
-
+        <label class="form-label" for="">
+          <span class="form-input-text">SURNAME</span>
+          <span class="input-wrapper">
+            <input
+              type="text"
+              class="form-input surname"
+              required
+              pattern="[a-zA-Zа-яА-яіІїЇ]+"
+              name="user-surname"
+            />
+          </span>
+        </label>
+        <label class="form-label" for="">
+          <span class="form-input-text">PHONE NUMBER</span>
+          <span class="input-wrapper">
+            <input
+              type="tel"
+              class="form-input phone"
+              required
+              pattern="[0-9]{3}[0-9]{3}[0-9]{2}[0-9]{2}"
+              title="xxx-xxx-xx-xx"
+              name="user-phone"
+            />
+          </span>
+        </label>
+        <label class="form-label comment">
+          <span class="form-input-text">COMMENT</span>
+          <textarea
+            name="user-comment"
+            class="form-area comment"
+            placeholder="Enter the text"
+          ></textarea>
+        </label>
+        <button type="submit" class="modal-submit-button">
+              SEND
+            </button>
       </form>
     </div>
   </div>

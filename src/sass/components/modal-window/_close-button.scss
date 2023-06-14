@@ -6,14 +6,18 @@
   padding: 0;
   top: 8px;
   right: 8px;
-  width: 30px;
-  height: 30px;
-  background-color: var(--backround-color);
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
   cursor: pointer;
   border: none;
-  &:hover > .modal-close-button-icon,
-  &:focus > .modal-close-button-icon {
-    fill: var(--accent-color);
+
+  font-size: 20px;
+  transition: color var(--animation);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
   }
 }
 .modal-close-button-icon {

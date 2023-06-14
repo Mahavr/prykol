@@ -1,5 +1,5 @@
 .section3 {
-position: relative;
+  position: relative;
   background-color: var(--accent-color);
 }
 .section3__container {
@@ -49,10 +49,13 @@ position: relative;
   justify-content: center;
   align-items: center;
   cursor: pointer;
+
+  transition: all var(--animation);
+
   &:hover,
   &:focus {
-    width: 90px;
-    height: 90px;
+    scale: 1.05;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   }
 }
 .card-menu-button-active {

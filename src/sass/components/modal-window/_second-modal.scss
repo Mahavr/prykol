@@ -1,0 +1,75 @@
+.second-modal-backdrop {
+  position: fixed;
+  z-index: 100;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--backdrop-color);
+  visibility: visible;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.modal-window__subtitle {
+  font-size: 20px;
+  font-weight: 600;
+}
+.modal-window__card-wrapper {
+  padding-top: 30px;
+
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 10px;
+
+  :first-child {
+    border: none;
+    padding-left: 0;
+  }
+}
+.modal-window__card {
+  width: 100%;
+  padding-left: 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+
+  gap: 20px;
+
+  border-left: 1px rgba(0, 0, 0, 0.105) solid;
+}
+.modal-window__card-image {
+  width: 100px;
+  height: 70px;
+}
+
+.second-modal-close-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  padding: 0;
+  top: 8px;
+  right: 8px;
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+
+  font-size: 20px;
+  transition: color var(--animation);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+}
+.second-modal-close-button-icon {
+  width: 30px;
+  height: 30px;
+  transition: fill var(--animation);
+  outline: none;
+}

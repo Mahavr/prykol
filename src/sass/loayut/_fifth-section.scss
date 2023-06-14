@@ -1,6 +1,6 @@
 .section-fifth {
   background-color: var(--accent-color);
-position: relative;
+  position: relative;
   padding-left: 60px;
 }
 .section-fifth-container {
@@ -40,7 +40,8 @@ position: relative;
   padding-bottom: 95px;
 }
 .email-form-wrapper {
-  display: flex;
+  position: relative;
+  display: block;
   align-items: center;
 }
 .email-form__item {
@@ -50,6 +51,11 @@ position: relative;
   border-radius: 46px;
   width: 480px;
   height: 85px;
+
+  padding-left: 30px;
+
+  font-size: 20px;
+
   &::placeholder {
     color: var(--light-text-color);
     font-family: var(--title-font);
@@ -78,7 +84,8 @@ position: relative;
   border-style: none;
   transition: all var(--animation);
   position: absolute;
-  left: 815;
+  right: 20;
+  top: 15;
 
   &:hover,
   &:focus {
