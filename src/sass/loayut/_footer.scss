@@ -29,7 +29,12 @@
   align-items: center;
   gap: 30px;
 }
+
 .footer__social-links-item {
   width: 42px;
   height: 42px;
+  &:hover ,
+  &:focus {
+    fill: var(--accent-color);
+  }
 }
